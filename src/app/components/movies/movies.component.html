@@ -1,0 +1,17 @@
+<div class="app">
+    <h1>Listado de Películas</h1>
+    <div class="search">
+        <input type="text" #movieSearchInput placeholder="Buscar Película">
+        <!-- <img src="search.svg" (click)="getMovies(search.value)" alt="search"> -->
+    </div>
+    @if(movies$ | async; as movies){
+
+    <div class="container">
+        @for (movie of movies; track $index) {
+        <app-card-movie [movie]="movie" />
+        }
+    </div>
+    }@else {
+        <h3>No se encontaron películas</h3>
+    }
+</div>
