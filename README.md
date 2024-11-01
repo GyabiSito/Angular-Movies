@@ -1,6 +1,6 @@
 # Movies
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7. <br>
 This project was done following the guide of [Angular RxJS Tutorial](https://www.youtube.com/watch?v=H4tKnc2Cdmg)
 ## Development server
 
